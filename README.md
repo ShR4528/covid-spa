@@ -27,15 +27,15 @@ The visualization of information is provided by graphs that reflect the data, de
 1. Clone the repository: https://github.com/ShR4528/covid-spa
 2. Go to the project:
 
-- cd covid-spa.
+$ cd covid-spa.
 
 3. Installation dependency:
 
-- npm install
+$ npm install
 
 4. Start project:
 
-- npm start
+$ npm start
 
 ### Deployment
 
