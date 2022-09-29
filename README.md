@@ -1,6 +1,6 @@
 
 # Covid Spa Information
-![this is image] (https://github.com/ShR4528/covid-spa/tree/master/public/img/img.png)
+![this is image] ('https://github.com/ShR4528/covid-spa/tree/master/public/img/img.png')
 
 Covid Spa Information - a one-page application for monitoring mortality, morbidity and the number of cases of recovery from COVID-19 in almost all countries of the world.
 
