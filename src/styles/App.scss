@@ -1,0 +1,117 @@
+@import "~bootstrap/scss/bootstrap";
+
+$blackcolor: #000;
+$whitecolor: #fff;
+$chart-whitecolor: #dcdeea;
+$brdrcolor-black: rgba(0, 0, 0, 0.18);
+$brdr-bottom-color: rgba(51, 51, 51, 0.2);
+$toggler-color-black: rgba(0, 0, 0, 0.55);
+$input-group-txtcolor: #e9ecef;
+$carousel-arrow-color: #6c9dd4;
+
+.light,
+.dark {
+  height: 100%;
+}
+
+.light {
+  background-color: $whitecolor;
+
+  .navbar-brand,
+  .nav-link,
+  .form-check-label,
+  .caption__title,
+  .form-label,
+  .card-body {
+    color: $blackcolor;
+  }
+
+  .navbar {
+    border: 0.5px solid $brdrcolor-black;
+  }
+
+  .navbar-toggler {
+    border: 1px solid $toggler-color-black;
+  }
+
+  .navbar-toggler-icon {
+    background-color: transparent;
+  }
+
+  .input-group-text {
+    color: $blackcolor;
+    background-color: $input-group-txtcolor;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: $carousel-arrow-color;
+  }
+
+  @media (max-width: 991.5px) {
+    .nav-link {
+      border-bottom: 0.5px solid $brdr-bottom-color;
+    }
+  }
+}
+
+.dark {
+  background-color: $blackcolor;
+
+  .navbar-brand,
+  .nav-link,
+  .form-check-label,
+  .caption__title,
+  .form-label,
+  .card-body {
+    color: $whitecolor;
+  }
+
+  .navbar,
+  .card-body {
+    background-color: $blackcolor;
+    border: 1px solid $whitecolor;
+    border-radius: 5px;
+  }
+
+  .navbar-toggler {
+    border: 1px solid $whitecolor;
+  }
+
+  .navbar-toggler-icon {
+    background-color: $whitecolor;
+    border-radius: 4px;
+  }
+
+  .input-group-text {
+    color: $whitecolor;
+    background-color: $blackcolor;
+  }
+
+  .form-control,
+  .form-select {
+    color: $whitecolor;
+    background-color: $blackcolor;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: $blackcolor;
+  }
+
+  g {
+    path {
+      stroke: $chart-whitecolor;
+    }
+
+    rect {
+      fill: $chart-whitecolor;
+    }
+  }
+
+  @media (max-width: 991.5px) {
+    .nav-link {
+      border-bottom: 0.5px solid $whitecolor;
+    }
+  }
+}

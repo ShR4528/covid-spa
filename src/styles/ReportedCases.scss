@@ -1,0 +1,29 @@
+$mainColor: #0b67a8;
+
+.form-check-label {
+  color: $mainColor;
+}
+.form-select-reported {
+  max-width: 50%;
+}
+
+@media (max-width: 576px) {
+  .d-flex {
+    flex-direction: column;
+    align-items: start;
+  }
+  .input-group-text,
+  .form-control,
+  .form-select-reported {
+    min-width: 100% !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    margin-bottom: 10px;
+  }
+
+  .form-select-reported option {
+    font-size: 14px;
+  }
+}

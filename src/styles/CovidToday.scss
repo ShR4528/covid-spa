@@ -1,0 +1,85 @@
+$caruselWidth: 100%;
+$caruselHeight: 300px;
+$textColor: black;
+$textSize: 40px;
+$mainColor: #0b67a8;
+$carouselBackground: #88f790;
+
+.wrapper {
+  width: $caruselWidth;
+  height: $caruselHeight;
+}
+
+.caption {
+  position: initial !important;
+}
+
+.caption h3 {
+  color: grey;
+}
+
+.caption p {
+  font-size: $textSize;
+  color: grey;
+}
+.carousel-control-next-icon {
+  background-color: grey;
+}
+.carousel-control-prev-icon {
+  background-color: grey;
+}
+.form-check-label {
+  color: blue;
+}
+.nav-link {
+  color: blue;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border-radius: 50%;
+  background-color: $mainColor;
+}
+.navbar-toggler {
+  background-color: $carouselBackground;
+  border: 2px solid $mainColor;
+  border-radius: 10px;
+}
+/*$caruselWidth: 100%;
+$caruselHeight: 60vh;
+$mainColor: #2a0ba8;
+$textSize: 4rem;
+$carouselBackground: #88f790;
+
+.wrapper {
+  width: $caruselWidth;
+  height: $caruselHeight;
+  background-color: $carouselBackground;
+  border: 2px solid $mainColor;
+  border-radius: 10px;
+}
+
+.caption {
+  position: initial !important;
+  margin-top: 50px;
+}
+
+.caption h1 {
+  color: $mainColor;
+}
+
+.caption p {
+  font-size: $textSize;
+  color: $mainColor;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border-radius: 50%;
+  background-color: $mainColor;
+}
+
+.navbar-toggler {
+  background-color: $carouselBackground;
+  border: 2px solid $mainColor;
+  border-radius: 10px;
+}*/
